@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .site-logo {
+    height: 50px;
+    width: auto;
+    margin-right: 15px;
+  }
+  
+  .site-name {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+body {
+    background-color: #9c303e;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.product-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+.d-block w-100{
+    z-index: 1;
+    width: 20px;
+    height: 20%;
+    margin: 
+}
+.d-block w-100 {
+    z-index: 0;
+    height: 20%;
+    margin-top: 
+}
+.fab fa-whatsapp {
+    /* icon ko fixed position dene ke liye */
+    bottom: 80px;    /* screen ke bottom se distance */
+    right: 50px;     /* screen ke right side se distance */
+    z-index: 1000;   /* icon ko sabse upar dikhane ke liye */
+    font-size: 4px; /* icon ka size set karne ke liye */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* shadow effect */
+    transition: transform 0.3s ease-in-out; /* hover effect smooth karne ke liye */
+}
+.whatsapp-icon:hover {
+    transform: scale(1.2); /* hover par icon thoda bara hoga */
+}
+.bi  {
+    font-size: 24px; 
+    color: green;
+
+}
